@@ -1,0 +1,23 @@
+{
+  "name": "google-gen-ai",
+  "version": "1.0.0",
+  "description": "Implementasi penggunaan Google Generative AI (GenAI) untuk berbagai kebutuhan, mulai dari pemrosesan teks, pembuatan gambar, hingga integrasi ke website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfathroziqq/google-gen-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfathroziqq/google-gen-ai/issues"
+  },
+  "homepage": "https://github.com/alfathroziqq/google-gen-ai#readme",
+  "dependencies": {
+    "@google/genai": "^1.5.1"
+  }
+}

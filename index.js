@@ -1,0 +1,20 @@
+import { GoogleGenAI } from "@google/genai";
+
+// ditaruh di .env
+const ai = new GoogleGenAI({ apiKey: "" });
+
+async function main() {
+    const response = await ai.models.generateContent({
+        model: "gemini-2.5-flash",
+        contents: "Tolong kasih Halo untuk Alfath Roziq",
+    });
+    console.log(response.text);
+}
+
+// prompt : "Say Hi from Gemini AI to AVPN Wave 1 Batch 3 students!"
+
+await main();
+
+// 2 jenis import syntax
+// CommonJS --> require() untuk import, module.exports untuk export
+// ES Module --> import untuk import, export untuk export
